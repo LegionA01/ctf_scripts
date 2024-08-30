@@ -1,0 +1,7 @@
+## IMPORTANT TO KNOW
+
+-> $# => to all variable directories in which we want to search
+-> $0 => script name likewise $1 = first argument "string to search", $2 => first directory(2nd argument) and so on...
+-> shift => due to this action, just think as we have removed $1("string to search") postion and now 'this means $2 becomes $1 and $3 becomes $2 and so on...
+-> $@ => iterate direcory one by one
+-> 2>/dev/null => don't show error if occures
